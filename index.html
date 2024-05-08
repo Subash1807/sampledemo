@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Traffic Management System</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Include Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+</head>
+<body>
+    <header>
+        <h1>Welcome to Traffic Management</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home-section" id="home-button">Home</a></li>
+            <li><a href="#traffic-updates-section" id="traffic-updates-button">Traffic Updates</a></li>
+            <li><a href="#route-planner-section" id="route-planner-button">Route Planner</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home-section">
+            <!-- Home section content -->
+        </section>
+        <section id="traffic-updates-section">
+            <h2>Traffic Updates</h2>
+            <div id="traffic-map" style="height: 300px;"></div>
+        </section>
+        <section id="route-planner-section">
+            <h2>Route Planner</h2>
+            <form id="route-form">
+                <label for="start-location">Start Location:</label>
+                <input type="text" id="start-location" name="start" required>
+                <label for="end-location">End Location:</label>
+                <input type="text" id="end-location" name="end" required>
+                <button type="submit">Plan Route</button>
+            </form>
+            <div id="route-results">
+                <!-- Display route information here -->
+            </div>
+            <div id="map" style="height: 400px;"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Traffic Management System</p>
+    </footer>
+    <script src="script.js"></script>
+    <!-- Include Leaflet JavaScript -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    background-color: #444;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+#traffic-map {
+    width: 100%;
+    height: 300px;
+    background-color: #fff;
+    /* You can use a map library like Leaflet or Google Maps here */
+}
+
+#route-form {
+    background-color: #fff;
+    padding: 10px;
+}
+
+#route-results {
+    background-color: #fff;
+    padding: 10px;
+}
